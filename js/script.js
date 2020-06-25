@@ -60,3 +60,5 @@ todoControl.addEventListener('submit', function(event){ // стандартно�
     render();
     headerInput.value = ''; // очищаем инпут после ввода
 });
+
+render(); // тобы страница рендерилась сразу
